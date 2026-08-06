@@ -1,0 +1,20 @@
+import pandas as pd
+
+# Sample Dataset
+data = {
+    "Students": ["Tharun", "Rahul", "Priya", "Anjali", "Kiran"],
+    "Marks": [85, 90, 88, 95, 75]
+}
+
+df = pd.DataFrame(data)
+
+print("===== DAY 11 - BUSINESS INSIGHTS =====\n")
+
+# Five Business Insights
+print("1. The average marks of the class are 86.6.")
+print("2. Anjali scored the highest marks (95).")
+print("3. Kiran scored the lowest marks (75).")
+print("4. Four out of five students scored above 80 marks.")
+print("5. The overall class performance is good because the average marks are above 85.")
+
+print("\n===== DAY 11 COMPLETED SUCCESSFULLY =====")
